@@ -1,0 +1,46 @@
+{
+    "icons": [
+        {
+            "title":"Node.js",
+            "url": "https://skillicons.dev/icons?i=nodejs"
+        },
+        {
+            "title":"JavaScript",
+            "url": "https://skillicons.dev/icons?i=js"
+        },
+        {
+            "title":"TypeScript",
+            "url": "https://skillicons.dev/icons?i=ts"
+        },
+        {
+            "title":"React",
+            "url": "https://skillicons.dev/icons?i=react"
+        },
+        {
+            "title":"NPM",
+            "url": "https://skillicons.dev/icons?i=npm"
+        },
+        {
+            "title":"Tailwind",
+            "url": "https://skillicons.dev/icons?i=tailwind"
+        },
+        {
+            "title":"Java",
+            "url": "https://skillicons.dev/icons?i=java"
+        },
+        {
+            "title":"Git",
+            "url": "https://skillicons.dev/icons?i=git"
+        },
+        {
+            "title":"Linux",
+            "url": "https://skillicons.dev/icons?i=linux"
+        },
+        {
+            "title":"VS Code",
+            "url": "https://skillicons.dev/icons?i=vscode"
+        }
+
+    ]
+}
+    
