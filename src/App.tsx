@@ -9,6 +9,7 @@ import TextList from './components/TextList/TextList';
 import Footer from './components/Footer/Footer';
 import ProjectCard from './components/ProjectCard/ProjectCard';
 import emojifyPic from '../src/assets/img/emojify.png';
+import aboutMe from '../src/assets/aboutme.json';
 //import cv from '../src/assets/CV - Leonardo Ereno(br)-3.pdf'
 
 function App() {
@@ -16,10 +17,9 @@ function App() {
     <main className='flex flex-col items-center p-6 flex-wrap'>
       <Card 
         imgUrl={profilePic}
-        title='Leonardo Ereno'
-        subtitle='Desenvolvedor JavaScript'
-        body='Com um histórico comprovado de adaptabilidade e proatividade, procuro contribuir no
-        desenvolvimento de soluções e inovações tecnológicas'
+        title={aboutMe.name}
+        subtitle={aboutMe.role}
+        body={aboutMe.about}
         popUp
       >
       </Card>
