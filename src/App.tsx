@@ -8,6 +8,8 @@ import softSkills from "./assets/soft-skills.json"
 import TextList from './components/TextList/TextList';
 import Footer from './components/Footer/Footer';
 import ProjectCard from './components/ProjectCard/ProjectCard';
+import emojifyPic from '../src/assets/img/emojify.png';
+//import cv from '../src/assets/CV - Leonardo Ereno(br)-3.pdf'
 
 function App() {
   return(
@@ -18,12 +20,14 @@ function App() {
         subtitle='Desenvolvedor JavaScript'
         body='Com um histórico comprovado de adaptabilidade e proatividade, procuro contribuir no
         desenvolvimento de soluções e inovações tecnológicas'
-      />
-      <Card title='Tecnologias'>
+        popUp
+      >
+      </Card>
+      <Card title='Tecnologias' popUp>
         <IconList listItems={icons.icons} />
       </Card>
 
-      <Card title='Soft Skills'>
+      <Card title='Soft Skills' popUp>
         <TextList listItem={softSkills.softSkills} />
       </Card>
 
@@ -31,6 +35,10 @@ function App() {
         <ProjectCard
           title='Emojify'
           description='Manipulação do input do usuário para a inserção de emojis aleatórios no texto.'
+          tools={["HTML", "CSS", "React", "TypeScript", "Integração com API externa"]}
+          projectUrl='https://emojify-ten.vercel.app/'
+          imageUrl={emojifyPic}
+          githubUrl='https://github.com/leoereno/emojify'
         />
       </Card>
 

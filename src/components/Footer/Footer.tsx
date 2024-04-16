@@ -5,7 +5,7 @@ import github from "../../assets/svg/github-142-svgrepo-com.svg";
 export default function Footer(){
     return(
         <div className="bg-slate-50 p-4 text-center flex flex-col rounded-xl shadow-md">
-            <h2 onClick={() => {window.scrollTo(0,0)}} className="text-md cursor-pointer text-orange-600 hover:text-orange-300 transition-all">Voltar ao início</h2>
+            <h2 onClick={() => {window.scroll({top: 0, left:0, behavior: 'smooth'})}} className="text-md cursor-pointer text-orange-600 hover:text-orange-300 transition-all">Voltar ao início</h2>
             <h1 className="font-bold text-2xl">Contato</h1>
             <ul className="flex gap-2 justify-center">
                 <li className="hover:scale-110 transition-all p-1" title="LinkedIn">
