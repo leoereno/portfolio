@@ -1,5 +1,13 @@
 {
-    "name": "Leonardo Ereno",
-    "role": "Desenvolvedor JavaScript",
-    "about": "Sou um desenvolvedor JavaScript com foco em ferramentas como Node.Js e React. Tenho conhecimento básico e interesse em outras linguagens, como Java e C#! Me destaco pela adaptabilidade e proatividade e meu maior objetivo é produzir um impacto positivo no time em que estiver atuando!"
+    "pt":{
+        "name": "Leonardo Ereno",
+        "role": "Desenvolvedor JavaScript",
+        "about": "Sou um desenvolvedor JavaScript com foco em ferramentas como Node.Js e React. Tenho conhecimento básico e interesse em outras linguagens, como Java e C#! Me destaco pela adaptabilidade e proatividade e meu maior objetivo é produzir um impacto positivo no time em que estiver atuando!"
+    },
+    "en":{
+        "name": "Leonardo Ereno",
+        "role": "JavaScript Developer",
+        "about": "I'm a JavaScript developer and my main tools are Node.Js and React. I also have interest and some basic knowledge in other languages, such as Java and C#! Adaptability and proactivity are two of the things I stand out for, and my main goal is to promote a positive impact on my work enviroment!"
+    }
+    
 }
